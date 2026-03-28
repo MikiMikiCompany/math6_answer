@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>算数問題</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    
+    <style>
+        :root { --primary-color: #2c3e50; }
+        body {
+            font-family: 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .problem-container {
+            margin-bottom: 50px;
+            page-break-inside: avoid;
+        }
+        .problem-header {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 8px;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 3px;
+        }
+        .meta-info {
+            font-size: 0.8em;
+            color: #7f8c8d;
+            font-weight: normal;
+            margin-left: 10px;
+        }
+        .question-box {
+            padding: 5px;
+        }
+        .answer-text {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #c0392b;
+            margin-top: 10px;
+            margin-bottom: 8px;
+        }
+        .explanation-box {
+            padding: 10px 15px;
+            background-color: #f9f9f9;
+            border-left: 3px solid #3498db;
+        }
+        /* フッター全体のスタイル（コンパクトに横並び） */
+        .footer-area {
+            margin-top: 15px;
+            page-break-inside: avoid;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            gap: 15px;
+        }
+        /* QRコードのスタイル */
+        .qr-code-box {
+            text-align: center;
+        }
+        .qr-code-box p {
+            margin: 0 0 2px 0;
+            font-size: 0.75em;
+            color: #555;
+            font-weight: bold;
+        }
+        .qr-code-box img {
+            width: 90px;
+            height: 90px;
+        }
+        .creation-date {
+            font-size: 0.85em;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        /* ★ 印刷時専用のスタイル ★ */
+        @media print {
+            body { max-width: 100%; padding: 0; }
+            .problem-container { margin-bottom: 50px; }
+            .footer-area { margin-top: 10px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="section-questions">
+
+        <div class="problem-container">
+            <div class="problem-header">
+                問 1 <span class="meta-info">（整数の性質（約数・公倍数） / 難易度: easy）</span>
+            </div>
+            <div class="question-box">
+                近江屋 金右衛門が隠し持っている小判が24枚、お代官様が持っている小判が40枚あります。この2つの最大公約数を求めなされ。
+            </div>
+            <div class="answer-text">【答え】 8</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>
+                ① $24$と$40$、両方をわり切れる一番大きな数……密談の種になりますな。<br>② $24$の約数は$1, 2, 3, 4, 6, 8, 12, 24$。$40$の約数にも$8$がございます。<br>③ 最大公約数は$8$でございます。これはこれは、お代官様。
+            </div>
+        </div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 2 <span class="meta-info">（整数の性質（約数・公倍数） / 難易度: easy）</span>
+            </div>
+            <div class="question-box">
+                近江屋 金右衛門がお代官様に差し出す山吹色の菓子が16個あります。この16の約数をすべて答えなされ。
+            </div>
+            <div class="answer-text">【答え】 1, 2, 4, 8, 16</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>
+                ① へっへっへ、$16$をきれいにわり切る数でございますな。<br>② $16 \div 1, 2, 4$と計算すれば、自ずと答えは見えまする。<br>③ $1, 2, 4, 8, 16$でございます。お主も悪よのぅ。
+            </div>
+        </div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 3 <span class="meta-info">（整数の性質（約数・公倍数） / 難易度: easy）</span>
+            </div>
+            <div class="question-box">
+                ラジュ・ソリマセンのサポート料金は18ドルと24ドルがあります。この2つの数字の最大公約数を求めてください。
+            </div>
+            <div class="answer-text">【答え】 6</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>
+                ① $18$の約数は$1, 2, 3, 6, 9, 18$です。ワタシ、プロです。<br>② $24$の約数は$1, 2, 3, 4, 6, 8, 12, 24$。共通の一番大きいの探します。<br>③ $6$が答えです。今スグ必要。
+            </div>
+        </div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 4 <span class="meta-info">（整数の性質（約数・公倍数） / 難易度: easy）</span>
+            </div>
+            <div class="question-box">
+                ミクナイダヨの限定バッジは12個、限定タオルは18枚あります。共通する約数（公約数）をすべて答えてくださいダヨ♡
+            </div>
+            <div class="answer-text">【答え】 1, 2, 3, 6</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>
+                ① $12$の約数は$1, 2, 3, 4, 6, 12$ダヨ♡<br>② $18$の約数は$1, 2, 3, 6, 9, 18$ダヨ♡<br>③ 両方にあるのは$1, 2, 3, 6$だネ！全部投げて♡
+            </div>
+        </div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 5 <span class="meta-info">（整数の性質（約数・公倍数） / 難易度: normal）</span>
+            </div>
+            <div class="question-box">
+                むとう けんは9日ごとに高級車を借り、12日ごとに高級時計を借ります。今日、両方を借りる日だとしたら、次に両方を借りるのは何日後ですか。
+            </div>
+            <div class="answer-text">【答え】 36日後</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>
+                ① 成功のサイクルを計算しましょう。$9$と$12$の最小公倍数です。<br>② $9, 18, 27, 36...$と$12, 24, 36...$。一致しましたね。<br>③ $36$日後です。行動しない人は一生変われない。
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-area">
+        
+        <div class="creation-date">作成日: 2026年03月28日</div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [
+                    {left: '$$', right: '$$', display: true},
+                    {left: '$', right: '$', display: false}
+                ],
+                throwOnError : false
+            });
+        });
+    </script>
+</body>
+</html>
