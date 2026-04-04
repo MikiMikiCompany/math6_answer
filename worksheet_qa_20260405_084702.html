@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>算数問題</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <style>
+        :root { --primary-color: #2c3e50; }
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 20px; }
+        .problem-container { margin-bottom: 50px; page-break-inside: avoid; }
+        .problem-header { font-weight: bold; font-size: 1.1em; margin-bottom: 8px; border-bottom: 2px solid var(--primary-color); padding-bottom: 3px; }
+        .meta-info { font-size: 0.8em; color: #7f8c8d; font-weight: normal; margin-left: 10px; }
+        .question-box { padding: 5px; }
+        .answer-text { font-weight: bold; font-size: 1.2em; color: #c0392b; margin-top: 10px; margin-bottom: 8px; }
+        .explanation-box { padding: 10px 15px; background-color: #f9f9f9; border-left: 3px solid #3498db; }
+        .footer-area { margin-top: 15px; page-break-inside: avoid; display: flex; justify-content: flex-end; align-items: flex-end; gap: 15px; }
+        .qr-code-box { text-align: center; }
+        .qr-code-box p { margin: 0 0 2px 0; font-size: 0.75em; color: #555; font-weight: bold; }
+        .qr-code-box img { width: 90px; height: 90px; }
+        .creation-date { font-size: 0.85em; color: #666; margin-bottom: 5px; text-align: right; }
+        @media print { body { max-width: 100%; padding: 0; } }
+    </style>
+</head>
+<body>
+    <div class="section-questions">
+
+        <div class="problem-container">
+            <div class="problem-header">
+                問 1 <span class="meta-info">（分数の計算（四則演算） / 難易度: easy / qid: ede5ea...）</span>
+            </div>
+            <div class="question-box">
+                近江屋 金右衛門は、農民から集めた $50$ 俵の米のうち、$\frac{3}{5}$ を「お代官様への献上品」としてネコババしました。献上した米は何俵ですか。
+            </div>
+            <div class="answer-text">【答え】 30俵</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① $50$ 俵の $\frac{3}{5}$ を求めればよいのでございます。計算は掛け算でございますな。<br>② $50 \times \frac{3}{5} = 30$ 俵となります。5で割って3を掛ける、実に簡単でございます。<br>③ 答えは $30$ 俵。残りは手前の取り分でございます。へっへっへ……。<br>お主も悪よのぅ。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 2 <span class="meta-info">（分数の計算（四則演算） / 難易度: easy / qid: 0b7cc0...）</span>
+            </div>
+            <div class="question-box">
+                アサコは、儀式に使う魔力を蓄えるために、3つの魔力結晶を用意しました。1つの結晶に $\frac{3}{10}$ kgの魔力がつまっているとき、合計の魔力は何kgですか。
+            </div>
+            <div class="answer-text">【答え】 9/10kg</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 1つ $\frac{3}{10}$ kgの結晶が3つある。合計を出すために掛ける。<br>② $3 \times \frac{3}{10} = \frac{9}{10}$。分子に3を掛けるだけでいい。<br>③ 答え、 $\frac{9}{10}$ kg。問題ない。<br>終わり。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 3 <span class="meta-info">（逆算（虫食い算） / 難易度: normal / qid: cfc2e0...）</span>
+            </div>
+            <div class="question-box">
+                取田 照造が管理する300万円の債権から、何回か同じ金額を回収したところ、残りは100万円になりました。4回回収したとすると、1回あたりいくら回収しましたか。
+            </div>
+            <div class="answer-text">【答え】 50万円</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① まず、回収した合計額を求めます。$300 - 100 = 200$万円ですな。 ② 次に、それを回数で割って1回分を出します。$200 \div 4 = 50$万円です。 ③ 答えは50万円。こういうものですが。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 4 <span class="meta-info">（素因数分解 / 難易度: easy / qid: 71cb48...）</span>
+            </div>
+            <div class="question-box">
+                謝 謎課金が「安全確認が必要」と言っている150件のアカウント数。150を素因数分解してください。
+            </div>
+            <div class="answer-text">【答え】 $2 \times 3 \times 5^2$ の積</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 150を2で割り、75を3で割ります。$150 \div 2 = 75$、$75 \div 3 = 25$ です。<br>② 25を5で割ると5になります。$25 \div 5 = 5$。马上確認してください！<br>③ 素数の積は $2 \times 3 \times 5^2$ です。没问题です。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 5 <span class="meta-info">（小数の計算（四則演算） / 難易度: easy / qid: dcdd4f...）</span>
+            </div>
+            <div class="question-box">
+                近江屋 金右衛門が所有する米蔵から、ネズミに食われて $2.5$ トンの米が減ってしまいました。元の在庫が $10$ トンだったとき、残りの米は何トンですか？
+            </div>
+            <div class="answer-text">【答え】 7.5 トン</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 全体の量から減った分を引くだけでございます。 $10 - 2.5 = 7.5$ トンになりますな。<br>② 小数点の位置を間違えぬよう、慎重に引くのが商いの基本。<br>③ 残りは $7.5$ トンでございます。これはこれは、お代官様。
+            </div></div>
+    </div>
+    <div class="footer-area">
+        
+        <div class="creation-date">作成日: 2026年04月05日<br>Quiz ID: quiz_20260405_084702_4619</div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false
+            });
+        });
+    </script>
+</body>
+</html>
