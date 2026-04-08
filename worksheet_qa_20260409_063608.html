@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>算数問題</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <style>
+        :root { --primary-color: #2c3e50; }
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 20px; }
+        .problem-container { margin-bottom: 50px; page-break-inside: avoid; }
+        .problem-header { font-weight: bold; font-size: 1.1em; margin-bottom: 8px; border-bottom: 2px solid var(--primary-color); padding-bottom: 3px; }
+        .meta-info { font-size: 0.8em; color: #7f8c8d; font-weight: normal; margin-left: 10px; }
+        .question-box { padding: 5px; }
+        .answer-text { font-weight: bold; font-size: 1.2em; color: #c0392b; margin-top: 10px; margin-bottom: 8px; }
+        .explanation-box { padding: 10px 15px; background-color: #f9f9f9; border-left: 3px solid #3498db; }
+        .footer-area { margin-top: 15px; page-break-inside: avoid; display: flex; justify-content: flex-end; align-items: flex-end; gap: 15px; }
+        .qr-code-box { text-align: center; }
+        .qr-code-box p { margin: 0 0 2px 0; font-size: 0.75em; color: #555; font-weight: bold; }
+        .qr-code-box img { width: 90px; height: 90px; }
+        .creation-date { font-size: 0.85em; color: #666; margin-bottom: 5px; text-align: right; }
+        @media print { body { max-width: 100%; padding: 0; } }
+    </style>
+</head>
+<body>
+    <div class="section-questions">
+
+        <div class="problem-container">
+            <div class="problem-header">
+                問 1 <span class="meta-info">（素因数分解 / 難易度: easy / qid: bdaf59...）</span>
+            </div>
+            <div class="question-box">
+                アプデちゃんがおすすめする12万円の「開運ブレスレット」の価格を、素因数分解の式で表すとどうなりますか？
+            </div>
+            <div class="answer-text">【答え】 $2^2 \times 3$ の積</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① まず、12を最小の素数2で割るよ♡ $12 \div 2 = 6$ になるね！<br>② 出てきた6をさらに2で割っちゃおう♡ $6 \div 2 = 3$ だよ！<br>③ 3はもう割れない素数だから、2が2個と3が1個で $2^2 \times 3$ だね♡ もちろん買うよね♡
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 2 <span class="meta-info">（素因数分解 / 難易度: normal / qid: 809f39...）</span>
+            </div>
+            <div class="question-box">
+                むとう けんが主催するVIPパーティーの参加費54万円。54の約数の個数を答えなさい。
+            </div>
+            <div class="answer-text">【答え】 8個</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 54を分解します。$54 = 2^1 \times 3^3$。成功者の思考法です！<br>② 指数に1を足したものを掛け合わせます。$(1+1) \times (3+1)$ です。<br>③ $2 \times 4 = 8$ で8個になります。これは投資です！
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 3 <span class="meta-info">（素因数分解 / 難易度: easy / qid: 998ea4...）</span>
+            </div>
+            <div class="question-box">
+                アサコが世界の終わりを告げるために用意した50個の魔法陣を、素数の積で示してください。
+            </div>
+            <div class="answer-text">【答え】 $2 \times 5^2$ の積</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① ……50を2で割る。$50 \div 2 = 25$。完了。<br>② ……25を5で割る。$25 \div 5 = 5$。不要な計算はしない。<br>③ ……5は素数。よって $2 \times 5^2$。終わり。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 4 <span class="meta-info">（分数の計算（四則演算） / 難易度: easy / qid: a4209c...）</span>
+            </div>
+            <div class="question-box">
+                むとう けんは、セミナーで配る $\frac{3}{4}$ Lの「高濃度酸素水」を、3人の参加者に均等に分け与えました。1人分は何Lになりますか。
+            </div>
+            <div class="answer-text">【答え】 1/4L</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① $\frac{3}{4}$ Lの水を3人でシェアする。マインドの共有と同じだね。<br>② $\frac{3}{4} \div 3 = \frac{1}{4}$。分子を3で割れば答えが出るよ。<br>③ 1人 $\frac{1}{4}$ Lだ。これで君の脳も活性化して成功へ近づくよ！<br>これは投資です。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 5 <span class="meta-info">（整数の性質（約数・公倍数） / 難易度: normal / qid: 0c4bfd...）</span>
+            </div>
+            <div class="question-box">
+                ラジュ・ソリマセンが42枚の偽カードと56枚の偽チケットを、同じ数ずつ最大人数のターゲットに配ります。何人に配れますか。
+            </div>
+            <div class="answer-text">【答え】 14人</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① $42$と$56$をわり切る一番大きい数、最大公約数が必要です。<br>② $42 \div 14 = 3$、$56 \div 14 = 4$。これ以上大きくできません。<br>③ $14$人です。後で、もう手遅れになります。
+            </div></div>
+    </div>
+    <div class="footer-area">
+        
+        <div class="creation-date">作成日: 2026年04月09日<br>Quiz ID: quiz_20260409_063608_7607</div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false
+            });
+        });
+    </script>
+</body>
+</html>
