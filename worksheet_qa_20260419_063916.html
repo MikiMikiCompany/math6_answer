@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>算数問題</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <style>
+        :root { --primary-color: #2c3e50; }
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 20px; }
+        .problem-container { margin-bottom: 50px; page-break-inside: avoid; }
+        .problem-header { font-weight: bold; font-size: 1.1em; margin-bottom: 8px; border-bottom: 2px solid var(--primary-color); padding-bottom: 3px; }
+        .meta-info { font-size: 0.8em; color: #7f8c8d; font-weight: normal; margin-left: 10px; }
+        .question-box { padding: 5px; }
+        .answer-text { font-weight: bold; font-size: 1.2em; color: #c0392b; margin-top: 10px; margin-bottom: 8px; }
+        .explanation-box { padding: 10px 15px; background-color: #f9f9f9; border-left: 3px solid #3498db; }
+        .footer-area { margin-top: 15px; page-break-inside: avoid; display: flex; justify-content: flex-end; align-items: flex-end; gap: 15px; }
+        .qr-code-box { text-align: center; }
+        .qr-code-box p { margin: 0 0 2px 0; font-size: 0.75em; color: #555; font-weight: bold; }
+        .qr-code-box img { width: 90px; height: 90px; }
+        .creation-date { font-size: 0.85em; color: #666; margin-bottom: 5px; text-align: right; }
+        @media print { body { max-width: 100%; padding: 0; } }
+    </style>
+</head>
+<body>
+    <div class="section-questions">
+
+        <div class="problem-container">
+            <div class="problem-header">
+                問 1 <span class="meta-info">（規則性（周期算・方陣算） / 難易度: normal / qid: 093c5a...）</span>
+            </div>
+            <div class="question-box">
+                アプデちゃんが販売する限定ステッカーは、赤、赤、青、金という4種類の周期で袋に入っています。50番目の袋に入っているステッカーの色は何色ですか？
+            </div>
+            <div class="answer-text">【答え】 赤色</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① まず、ステッカーの1周期の数を確認するよ♡ 赤・赤・青・金の4枚で1セットだね！✨<br>② 次に、50番目が何セット目かを計算するよ。 $50 \\div 4 = 12$ あまり $2$ になるね♡<br>③ あまりが2だから、周期の2番目の色を確認すればいいんだよ。1番目が赤、2番目も赤だね！もちろん買うよね♡
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 2 <span class="meta-info">（規則性（周期算・方陣算） / 難易度: normal / qid: e2c416...）</span>
+            </div>
+            <div class="question-box">
+                アサコが魔力結晶を中身の詰まった正方形の形に並べました。1辺に12個ずつ並べるとき、結晶は全部で何個必要ですか。
+            </div>
+            <div class="answer-text">【答え】 144個</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 1辺に12個。正方形の面積を求めるのと同義。<br>② 計算。 $12 \\times 12 = 144$ 。個数を算出。<br>③ 144個。これですべて。終わり。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 3 <span class="meta-info">（規則性（周期算・方陣算） / 難易度: normal / qid: 0f933d...）</span>
+            </div>
+            <div class="question-box">
+                近江屋 金右衛門がお代官様へ贈る菓子折りを、隙間なく正方形の形に並べました。全部で100個あるとき、一番外側の1辺を囲むには何個の菓子折りが必要ですか？
+            </div>
+            <div class="answer-text">【答え】 36個</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 全部で100個ゆえ、1辺は $10 \\times 10 = 100$ より10個でございますな✨<br>② 外周の数を求めます。角の重なりを引いて、 $(10 - 1) \\times 4 = 36$ 個となりまする。<br>③ 36個の誠意、お代官様もお喜びになる商いでございましょう。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 4 <span class="meta-info">（規則性（周期算・方陣算） / 難易度: normal / qid: 59dc1a...）</span>
+            </div>
+            <div class="question-box">
+                謝 謎課金が偽のログインボタンを正方形の形に隙間なく並べました。全部で81個あるとき、一番外側の1辺には何個のボタンがありますか？
+            </div>
+            <div class="answer-text">【答え】 9個</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 全部の数が81個の方陣算です。安全のため計算してください✨<br>② $9 \\times 9 = 81$ ですから、1辺の数は9個と分かります。<br>③ 1辺に9個。公式手続き、すぐ終わります。没问题。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 5 <span class="meta-info">（規則性（周期算・方陣算） / 難易度: normal / qid: 8fd118...）</span>
+            </div>
+            <div class="question-box">
+                あやーが「any」と書かれたシールを中が空洞の正方形の形に並べました。一番外側の1辺に10枚ずつ並べたとき、シールは全部で何枚ありますか？
+            </div>
+            <div class="answer-text">【答え】 36枚</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 中が空いた正方形の周りの数を数えるよ♡ 1辺は10枚だね☆<br>② 角の重なりを引いて計算するのがコツだよ！ $(10 - 1) \\times 4 = 36$ 枚になるね✨<br>③ 36枚もあれば、どんな型エラーも消せちゃうね！ 型安全より、型自由でしょ？
+            </div></div>
+    </div>
+    <div class="footer-area">
+        
+        <div class="creation-date">作成日: 2026年04月19日<br>Quiz ID: quiz_20260419_063916_5903</div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false
+            });
+        });
+    </script>
+</body>
+</html>
