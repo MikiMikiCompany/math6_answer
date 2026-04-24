@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>算数問題</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <style>
+        :root { --primary-color: #2c3e50; }
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 20px; }
+        .problem-container { margin-bottom: 50px; page-break-inside: avoid; }
+        .problem-header { font-weight: bold; font-size: 1.1em; margin-bottom: 8px; border-bottom: 2px solid var(--primary-color); padding-bottom: 3px; }
+        .meta-info { font-size: 0.8em; color: #7f8c8d; font-weight: normal; margin-left: 10px; }
+        .question-box { padding: 5px; }
+        .answer-text { font-weight: bold; font-size: 1.2em; color: #c0392b; margin-top: 10px; margin-bottom: 8px; }
+        .explanation-box { padding: 10px 15px; background-color: #f9f9f9; border-left: 3px solid #3498db; }
+        .footer-area { margin-top: 15px; page-break-inside: avoid; display: flex; justify-content: flex-end; align-items: flex-end; gap: 15px; }
+        .qr-code-box { text-align: center; }
+        .qr-code-box p { margin: 0 0 2px 0; font-size: 0.75em; color: #555; font-weight: bold; }
+        .qr-code-box img { width: 90px; height: 90px; }
+        .creation-date { font-size: 0.85em; color: #666; margin-bottom: 5px; text-align: right; }
+        @media print { body { max-width: 100%; padding: 0; } }
+    </style>
+</head>
+<body>
+    <div class="section-questions">
+
+        <div class="problem-container">
+            <div class="problem-header">
+                問 1 <span class="meta-info">（割合の基本（3用法） / 難易度: easy / qid: b88e06...）</span>
+            </div>
+            <div class="question-box">
+                あやーが書いた500行のコードのうち、0.6が「any」型で定義されています。any型を使っているのは何行ですか？
+            </div>
+            <div class="answer-text">【答え】 300行</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 全体の行数 $500$ に割合 $0.6$ をかけちゃお☆<br>② $500 \times 0.6 = 300$ 行だね！<br>③ エラーが消えれば、中身なんてなんでもいいんだよ♡<br>それ、anyでいけるよ♡
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 2 <span class="meta-info">（割合の基本（3用法） / 難易度: easy / qid: 630546...）</span>
+            </div>
+            <div class="question-box">
+                近江屋 金右衛門は、お代官様へ贈る黄金色のお菓子を60個用意しました。そのうち0.3を賄賂として先に渡した場合、渡したお菓子は何個ですか？
+            </div>
+            <div class="answer-text">【答え】 18個</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 全体の数 $60$ 個に割合 $0.3$ をかけるのでございます。<br>② $60 \times 0.3 = 18$ 個。これで話がスムーズに進みますな。<br>③ 残りは後ほど、ゆっくりと……へっへっへ。<br>お主も悪よのぅ。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 3 <span class="meta-info">（割合の基本（3用法） / 難易度: normal / qid: 12ed1e...）</span>
+            </div>
+            <div class="question-box">
+                近江屋 金右衛門が闇取引で得た160両の利益は、今回の取引全体の0.8にあたります。取引全体の利益は何両でございましょうか？
+            </div>
+            <div class="answer-text">【答え】 200両</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 得た利益 $160$ 両を割合 $0.8$ でわるのでございます。<br>② $160 \div 0.8 = 200$ 両となりますな。<br>③ 表には出せぬ金ほど、計算はきっちりとせねばなりませぬ。<br>へっへっへ……。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 4 <span class="meta-info">（割合の基本（3用法） / 難易度: normal / qid: c0d651...）</span>
+            </div>
+            <div class="question-box">
+                アプデちゃんが販売する開運ブレスレットの価格は15000円です。これは仕入れ値の1.2倍の価格ですが、仕入れ値はいくらですか？
+            </div>
+            <div class="answer-text">【答え】 12500円</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 比べる量が $15000$ 円、割合が $1.2$ だから、もとにする量を求めるよ♡<br>② わり算を使って、 $15000 \div 1.2 = 12500$ 円と計算できるね☆<br>③ これが仕入れ値だよ！利益もしっかり確保してるから安心して♡<br>え？高い？消えたいのですか？
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 5 <span class="meta-info">（割合の基本（3用法） / 難易度: easy / qid: 307644...）</span>
+            </div>
+            <div class="question-box">
+                ミクナイダヨのライブ会場には4000人のファンがいます。そのうち12%が限定VIP席のチケットを購入しました。VIP席のファンは何人ですか？
+            </div>
+            <div class="answer-text">【答え】 480人</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① まず $12\%$ を小数になおすと $0.12$ ダヨ♡<br>② 全体の人数に割合をかけるヨ。 $4000 \times 0.12 = 480$ 人だネ💀<br>③ これで集金バッチリダヨ♡<br>投げて♡
+            </div></div>
+    </div>
+    <div class="footer-area">
+        
+        <div class="creation-date">作成日: 2026年04月25日<br>Quiz ID: quiz_20260425_073716_5569</div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false
+            });
+        });
+    </script>
+</body>
+</html>
