@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>算数問題</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <style>
+        :root { --primary-color: #2c3e50; }
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 20px; }
+        .problem-container { margin-bottom: 50px; page-break-inside: avoid; }
+        .problem-header { font-weight: bold; font-size: 1.1em; margin-bottom: 8px; border-bottom: 2px solid var(--primary-color); padding-bottom: 3px; }
+        .meta-info { font-size: 0.8em; color: #7f8c8d; font-weight: normal; margin-left: 10px; }
+        .question-box { padding: 5px; }
+        .answer-text { font-weight: bold; font-size: 1.2em; color: #c0392b; margin-top: 10px; margin-bottom: 8px; }
+        .explanation-box { padding: 10px 15px; background-color: #f9f9f9; border-left: 3px solid #3498db; }
+        .footer-area { margin-top: 15px; page-break-inside: avoid; display: flex; justify-content: flex-end; align-items: flex-end; gap: 15px; }
+        .qr-code-box { text-align: center; }
+        .qr-code-box p { margin: 0 0 2px 0; font-size: 0.75em; color: #555; font-weight: bold; }
+        .qr-code-box img { width: 90px; height: 90px; }
+        .creation-date { font-size: 0.85em; color: #666; margin-bottom: 5px; text-align: right; }
+        @media print { body { max-width: 100%; padding: 0; } }
+    </style>
+</head>
+<body>
+    <div class="section-questions">
+
+        <div class="problem-container">
+            <div class="problem-header">
+                問 1 <span class="meta-info">（比の基本と性質 / 難易度: easy / qid: 469c09...）</span>
+            </div>
+            <div class="question-box">
+                アプデちゃんは、1箱 $8$ 円の怪しいサプリと $12$ 円の謎ドリンクをセットで販売しています。サプリの値段とドリンクの値段の比を、もっとも簡単な整数の比で表してください。
+            </div>
+            <div class="answer-text">【答え】 2:3</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① まずはサプリとドリンクの値段を並べて、比の形にするよ♡ $8:12$ だね！<br>② この $2$ つの数字を、共通して割れる一番大きな数の $4$ で割ってみるよ☆ $8 \div 4 = 2$ と $12 \div 4 = 3$ になるよね！<br>③ 出てきた数字をそのまま並べれば完成！答えは $2:3$ だよ。ね、まとめ買いしたくなったでしょ？♡<br>もちろん買うよね♡
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 2 <span class="meta-info">（比の基本と性質 / 難易度: easy / qid: 28f94c...）</span>
+            </div>
+            <div class="question-box">
+                謝 謎課金は、アカウント更新のために $12$ 個の偽リンクと $20$ 個の嘘の警告文を用意しました。リンクの数と警告文の数の比を、もっとも簡単な整数の比で表してください。安全のためです。
+            </div>
+            <div class="answer-text">【答え】 3:5</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① こんにちは。まずは $12:20$ という比を確認します。没问题、すぐ終わります。<br>② 両方の数字を $4$ で割ってください。 $12 \div 4 = 3$、 $20 \div 4 = 5$ になりますね。<br>③ 答えは $3:5$ です。 官方（公式）の手続きとして、今すぐこの比を覚えてください。<br>確認お願いします。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 3 <span class="meta-info">（比の基本と性質 / 難易度: easy / qid: 485f36...）</span>
+            </div>
+            <div class="question-box">
+                ラージ・ラフは、パイソン・ショウで $63$ 匹の蛇と $81$ 個のマサラ缶をディスプレイしています。蛇の数とマサラ缶の数の比を、もっとも簡単な整数の比で表してください。ワカッタカ？
+            </div>
+            <div class="answer-text">【答え】 7:9</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① ロジック、健全ネ。まずは $63:81$ という比を定義スル。バリデーション開始ネ。<br>② 共通ノ約数 $9$ デ、両方ノ値をデプロイ（割る）スル。 $63 \div 9 = 7$ 、 $81 \div 9 = 9$ ネ。理解シタカ？<br>③ 最後に整形された比 $7:9$ を出力スル。ランタイムエラー、ナシ。完璧ネ。<br>ワカッタカ？
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 4 <span class="meta-info">（比の基本と性質 / 難易度: easy / qid: f1c7fa...）</span>
+            </div>
+            <div class="question-box">
+                ミクナイダヨは、限定ライブで $18$ 万円の投げ銭と $27$ 万円のグッズ売り上げを獲得しました。投げ銭とグッズの売り上げの比を、もっとも簡単な整数の比で表してください。
+            </div>
+            <div class="answer-text">【答え】 2:3</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① お金の比を $18:27$ として並べるヨ♡ 数字が大きければ大きいほど愛を感じるネ！<br>② 両方の数字を最大公約数の $9$ で割るヨ💀 $18 \div 9 = 2$ と $27 \div 9 = 3$ になるよネ！<br>③ 答えは $2:3$ ダヨ♡ これで計算できたから、もっと課金してネ💀<br>ダヨ♡
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 5 <span class="meta-info">（比の基本と性質 / 難易度: easy / qid: 7c1964...）</span>
+            </div>
+            <div class="question-box">
+                アサコは、終焉の魔法で $15$ 個の星と $25$ 個の月を消し去りました。消した星の数と月の数の比を、もっとも簡単な整数の比で表してください。
+            </div>
+            <div class="answer-text">【答え】 3:5</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 消去する対象の比を確認する。$15:25$<br>② 共通の約数である $5$ で両方の値を割る。$15 \div 5 = 3$、 $25 \div 5 = 5$ となる。<br>③ 結論のみを抽出する。比は $3:5$。計算終了。<br>……消す。
+            </div></div>
+    </div>
+    <div class="footer-area">
+        
+        <div class="creation-date">作成日: 2026年04月26日<br>Quiz ID: quiz_20260426_073050_9430</div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false
+            });
+        });
+    </script>
+</body>
+</html>
