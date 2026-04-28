@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>算数問題</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <style>
+        :root { --primary-color: #2c3e50; }
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 20px; }
+        .problem-container { margin-bottom: 50px; page-break-inside: avoid; }
+        .problem-header { font-weight: bold; font-size: 1.1em; margin-bottom: 8px; border-bottom: 2px solid var(--primary-color); padding-bottom: 3px; }
+        .meta-info { font-size: 0.8em; color: #7f8c8d; font-weight: normal; margin-left: 10px; }
+        .question-box { padding: 5px; }
+        .answer-text { font-weight: bold; font-size: 1.2em; color: #c0392b; margin-top: 10px; margin-bottom: 8px; }
+        .explanation-box { padding: 10px 15px; background-color: #f9f9f9; border-left: 3px solid #3498db; }
+        .footer-area { margin-top: 15px; page-break-inside: avoid; display: flex; justify-content: flex-end; align-items: flex-end; gap: 15px; }
+        .qr-code-box { text-align: center; }
+        .qr-code-box p { margin: 0 0 2px 0; font-size: 0.75em; color: #555; font-weight: bold; }
+        .qr-code-box img { width: 90px; height: 90px; }
+        .creation-date { font-size: 0.85em; color: #666; margin-bottom: 5px; text-align: right; }
+        @media print { body { max-width: 100%; padding: 0; } }
+    </style>
+</head>
+<body>
+    <div class="section-questions">
+
+        <div class="problem-container">
+            <div class="problem-header">
+                問 1 <span class="meta-info">（割合の基本（3用法） / 難易度: normal / qid: c0d651...）</span>
+            </div>
+            <div class="question-box">
+                アプデちゃんが販売する開運ブレスレットの価格は15000円です。これは仕入れ値の1.2倍の価格ですが、仕入れ値はいくらですか？
+            </div>
+            <div class="answer-text">【答え】 12500円</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 比べる量が $15000$ 円、割合が $1.2$ だから、もとにする量を求めるよ♡<br>② わり算を使って、 $15000 \div 1.2 = 12500$ 円と計算できるね☆<br>③ これが仕入れ値だよ！利益もしっかり確保してるから安心して♡<br>え？高い？消えたいのですか？
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 2 <span class="meta-info">（規則性（周期算・方陣算） / 難易度: normal / qid: ea329a...）</span>
+            </div>
+            <div class="question-box">
+                ラージ・ラフが1坪の更地にサーバーを中が空洞の正方形に並べました。1辺に6台ずつ並べたとき、サーバーは合計で何台ありますか？
+            </div>
+            <div class="answer-text">【答え】 20台</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 外周ノ台数、計算スル。1辺は6台ネ✨<br>② 角ノ重複、排除スル。 $(6 - 1) \\times 4 = 20$ 台。理解シタカ？<br>③ 20台デ、非同期処理、完璧ネ。ロジック、健全ネ。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 3 <span class="meta-info">（素因数分解 / 難易度: normal / qid: 03cbf1...）</span>
+            </div>
+            <div class="question-box">
+                ミクナイダヨのサブスク会員数が72人です。72の約数の個数を数えて報告してネ♡
+            </div>
+            <div class="answer-text">【答え】 12個</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 72を分解するヨ♡ $72 = 2^3 \times 3^2$ になるネ♡<br>② 指数に1を足して掛けるヨ♡ $(3+1) \times (2+1)$ ダヨ♡<br>③ $4 \times 3 = 12$ で12個ダヨ♡ キミの愛が数字で見たいダヨ♡
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 4 <span class="meta-info">（数の性質（N進法） / 難易度: easy / qid: 434265...）</span>
+            </div>
+            <div class="question-box">
+                むとう けんは受講生に$7$つの成功ステップを授けました。この$7$という数字を、コンピュータが理解する$2$進法に変換するといくつになりますか。
+            </div>
+            <div class="answer-text">【答え】 111</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 成功のステップ$7$を$2$で割ります。$7 \div 2 = 3$ あまり $1$。<br>② 止まらずに進みましょう。$3 \div 2 = 1$ あまり $1$。 <br>③ 答えは$111_{(2)}$です。今の自分を超えましょう。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 5 <span class="meta-info">（計算のきまりと工夫 / 難易度: normal / qid: 1652c2...）</span>
+            </div>
+            <div class="question-box">
+                アプデちゃんが $102$ 円の怪しいお守りを $15$ 個仕入れました。工夫して合計金額を求めるといくらですか。
+            </div>
+            <div class="answer-text">【答え】 1530円</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① $102$ を $(100 + 2)$ に分けるのが賢い買い方だよ♡<br>② $(100 + 2) \times 15 = 100 \times 15 + 2 \times 15$ と計算するよ♡ $1500 + 30 = 1530$ 円だね！<br>③ 簡単に計算できたね♡ え？買わない？消えたいのですか？
+            </div></div>
+    </div>
+    <div class="footer-area">
+        
+        <div class="creation-date">作成日: 2026年04月29日<br>Quiz ID: quiz_20260429_070023_4175</div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false
+            });
+        });
+    </script>
+</body>
+</html>
