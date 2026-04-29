@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>算数問題</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <style>
+        :root { --primary-color: #2c3e50; }
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 20px; }
+        .problem-container { margin-bottom: 50px; page-break-inside: avoid; }
+        .problem-header { font-weight: bold; font-size: 1.1em; margin-bottom: 8px; border-bottom: 2px solid var(--primary-color); padding-bottom: 3px; }
+        .meta-info { font-size: 0.8em; color: #7f8c8d; font-weight: normal; margin-left: 10px; }
+        .question-box { padding: 5px; }
+        .answer-text { font-weight: bold; font-size: 1.2em; color: #c0392b; margin-top: 10px; margin-bottom: 8px; }
+        .explanation-box { padding: 10px 15px; background-color: #f9f9f9; border-left: 3px solid #3498db; }
+        .footer-area { margin-top: 15px; page-break-inside: avoid; display: flex; justify-content: flex-end; align-items: flex-end; gap: 15px; }
+        .qr-code-box { text-align: center; }
+        .qr-code-box p { margin: 0 0 2px 0; font-size: 0.75em; color: #555; font-weight: bold; }
+        .qr-code-box img { width: 90px; height: 90px; }
+        .creation-date { font-size: 0.85em; color: #666; margin-bottom: 5px; text-align: right; }
+        @media print { body { max-width: 100%; padding: 0; } }
+    </style>
+</head>
+<body>
+    <div class="section-questions">
+
+        <div class="problem-container">
+            <div class="problem-header">
+                問 1 <span class="meta-info">（規則性（周期算・方陣算） / 難易度: normal / qid: ea329a...）</span>
+            </div>
+            <div class="question-box">
+                ラージ・ラフが1坪の更地にサーバーを中が空洞の正方形に並べました。1辺に6台ずつ並べたとき、サーバーは合計で何台ありますか？
+            </div>
+            <div class="answer-text">【答え】 20台</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 外周ノ台数、計算スル。1辺は6台ネ✨<br>② 角ノ重複、排除スル。 $(6 - 1) \\times 4 = 20$ 台。理解シタカ？<br>③ 20台デ、非同期処理、完璧ネ。ロジック、健全ネ。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 2 <span class="meta-info">（割合の基本（3用法） / 難易度: normal / qid: c0d651...）</span>
+            </div>
+            <div class="question-box">
+                アプデちゃんが販売する開運ブレスレットの価格は15000円です。これは仕入れ値の1.2倍の価格ですが、仕入れ値はいくらですか？
+            </div>
+            <div class="answer-text">【答え】 12500円</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 比べる量が $15000$ 円、割合が $1.2$ だから、もとにする量を求めるよ♡<br>② わり算を使って、 $15000 \div 1.2 = 12500$ 円と計算できるね☆<br>③ これが仕入れ値だよ！利益もしっかり確保してるから安心して♡<br>え？高い？消えたいのですか？
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 3 <span class="meta-info">（比の基本と性質 / 難易度: normal / qid: 56365b...）</span>
+            </div>
+            <div class="question-box">
+                謝 謎課金は、大量のフィッシングメールを送信しました。「ブロックされたメール」と「届いたメール」の比は $3:11$ でした。送信したメールが全部で $2800$ 通のとき、ブロックされたメールは何通ですか？
+            </div>
+            <div class="answer-text">【答え】 600通</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 安全のため確認お願いします。全体の比は $3 + 11 = 14$ です。<br>② 全体の通数を比で割ります。 $2800 \div 14 = 200$ 通になります。 马上確認してください。<br>③ ブロックされた比 $3$ を掛けます。 $200 \times 3 = 600$ 通です。 没问题、公式手続きすぐ終わります。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 4 <span class="meta-info">（比の基本と性質 / 難易度: normal / qid: 9cb55b...）</span>
+            </div>
+            <div class="question-box">
+                ミクナイダヨは、限定ライブのチケットを販売しました。販売した「VIP席」と「一般席」の比は $3:10$ で、チケットは全部で $260$ 枚売れました。VIP席は何枚売れましたか？
+            </div>
+            <div class="answer-text">【答え】 60枚</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 全体の比の合計を計算するヨ♪ $3 + 10 = 13$ ダヨ♡<br>② チケット $1$ あたりの枚数を出すヨ！ $260 \div 13 = 20$ 枚だネ💀<br>③ VIP席の比は $3$ だから、$20 \times 3 = 60$ 枚になるヨ！ VIP席はもっと投げ銭してネ♡ 課金して♡
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 5 <span class="meta-info">（比の基本と性質 / 難易度: normal / qid: 0c833b...）</span>
+            </div>
+            <div class="question-box">
+                ラージ・ラフは、パイソン・ショウで使用する「APIモジュール」と「DBモジュール」のファイル数の比を $7:4$ に設計しました。APIモジュールが $56$ ファイルあるとき、DBモジュールは何ファイル必要ですか？
+            </div>
+            <div class="answer-text">【答え】 32ファイル</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① ロジック、健全ネ。まずAPIの比 $7$ で割って、$1$ あたりの数を出す。 $56 \div 7 = 8$ ファイルネ。<br>② 次にDBモジュールの比 $4$ を掛けるヨ。 $8 \times 4 = 32$ ファイルネ。<br>③ コレで型安全ナ設計ガ完成スル。My code is type-safe. No runtime errors, no problems. ワカッタカ？
+            </div></div>
+    </div>
+    <div class="footer-area">
+        
+        <div class="creation-date">作成日: 2026年04月30日<br>Quiz ID: quiz_20260430_062252_4999</div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false
+            });
+        });
+    </script>
+</body>
+</html>
