@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>算数問題</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <style>
+        :root { --primary-color: #2c3e50; }
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 20px; }
+        .problem-container { margin-bottom: 50px; page-break-inside: avoid; }
+        .problem-header { font-weight: bold; font-size: 1.1em; margin-bottom: 8px; border-bottom: 2px solid var(--primary-color); padding-bottom: 3px; }
+        .meta-info { font-size: 0.8em; color: #7f8c8d; font-weight: normal; margin-left: 10px; }
+        .question-box { padding: 5px; }
+        .answer-text { font-weight: bold; font-size: 1.2em; color: #c0392b; margin-top: 10px; margin-bottom: 8px; }
+        .explanation-box { padding: 10px 15px; background-color: #f9f9f9; border-left: 3px solid #3498db; }
+        .footer-area { margin-top: 15px; page-break-inside: avoid; display: flex; justify-content: flex-end; align-items: flex-end; gap: 15px; }
+        .qr-code-box { text-align: center; }
+        .qr-code-box p { margin: 0 0 2px 0; font-size: 0.75em; color: #555; font-weight: bold; }
+        .qr-code-box img { width: 90px; height: 90px; }
+        .creation-date { font-size: 0.85em; color: #666; margin-bottom: 5px; text-align: right; }
+        @media print { body { max-width: 100%; padding: 0; } }
+    </style>
+</head>
+<body>
+    <div class="section-questions">
+
+        <div class="problem-container">
+            <div class="problem-header">
+                問 1 <span class="meta-info">（比の基本と性質 / 難易度: normal / qid: 0c833b...）</span>
+            </div>
+            <div class="question-box">
+                ラージ・ラフは、パイソン・ショウで使用する「APIモジュール」と「DBモジュール」のファイル数の比を $7:4$ に設計しました。APIモジュールが $56$ ファイルあるとき、DBモジュールは何ファイル必要ですか？
+            </div>
+            <div class="answer-text">【答え】 32ファイル</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① ロジック、健全ネ。まずAPIの比 $7$ で割って、$1$ あたりの数を出す。 $56 \div 7 = 8$ ファイルネ。<br>② 次にDBモジュールの比 $4$ を掛けるヨ。 $8 \times 4 = 32$ ファイルネ。<br>③ コレで型安全ナ設計ガ完成スル。My code is type-safe. No runtime errors, no problems. ワカッタカ？
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 2 <span class="meta-info">（規則性（周期算・方陣算） / 難易度: normal / qid: ea329a...）</span>
+            </div>
+            <div class="question-box">
+                ラージ・ラフが1坪の更地にサーバーを中が空洞の正方形に並べました。1辺に6台ずつ並べたとき、サーバーは合計で何台ありますか？
+            </div>
+            <div class="answer-text">【答え】 20台</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 外周ノ台数、計算スル。1辺は6台ネ✨<br>② 角ノ重複、排除スル。 $(6 - 1) \\times 4 = 20$ 台。理解シタカ？<br>③ 20台デ、非同期処理、完璧ネ。ロジック、健全ネ。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 3 <span class="meta-info">（比の基本と性質 / 難易度: normal / qid: 56365b...）</span>
+            </div>
+            <div class="question-box">
+                謝 謎課金は、大量のフィッシングメールを送信しました。「ブロックされたメール」と「届いたメール」の比は $3:11$ でした。送信したメールが全部で $2800$ 通のとき、ブロックされたメールは何通ですか？
+            </div>
+            <div class="answer-text">【答え】 600通</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 安全のため確認お願いします。全体の比は $3 + 11 = 14$ です。<br>② 全体の通数を比で割ります。 $2800 \div 14 = 200$ 通になります。 马上確認してください。<br>③ ブロックされた比 $3$ を掛けます。 $200 \times 3 = 600$ 通です。 没问题、公式手続きすぐ終わります。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 4 <span class="meta-info">（数の性質（N進法） / 難易度: easy / qid: 434265...）</span>
+            </div>
+            <div class="question-box">
+                むとう けんは受講生に$7$つの成功ステップを授けました。この$7$という数字を、コンピュータが理解する$2$進法に変換するといくつになりますか。
+            </div>
+            <div class="answer-text">【答え】 111</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 成功のステップ$7$を$2$で割ります。$7 \div 2 = 3$ あまり $1$。<br>② 止まらずに進みましょう。$3 \div 2 = 1$ あまり $1$。 <br>③ 答えは$111_{(2)}$です。今の自分を超えましょう。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 5 <span class="meta-info">（比の基本と性質 / 難易度: normal / qid: d74ee9...）</span>
+            </div>
+            <div class="question-box">
+                アサコは世界を消去する魔法の準備をしています。魔力源として「虚無の雫」と「終焉の炎」を $2:7$ の比で混ぜる必要があります。終焉の炎が $210$ 単位あるとき、生成される魔力源の合計は何単位ですか？
+            </div>
+            <div class="answer-text">【答え】 270単位</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① ……比の $1$ あたりの量を求める。終焉の炎の比は $7$ だから、$210 \div 7 = 30$ 単位。<br>② ……全体の比を求める。$2 + 7 = 9$。<br>③ ……合計を算出する。$30 \times 9 = 270$ 単位。……これで終わり。
+            </div></div>
+    </div>
+    <div class="footer-area">
+        
+        <div class="creation-date">作成日: 2026年05月03日<br>Quiz ID: quiz_20260503_072745_9565</div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false
+            });
+        });
+    </script>
+</body>
+</html>
