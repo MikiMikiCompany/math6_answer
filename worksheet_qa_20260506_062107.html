@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>算数問題</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <style>
+        :root { --primary-color: #2c3e50; }
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 20px; }
+        .problem-container { margin-bottom: 50px; page-break-inside: avoid; }
+        .problem-header { font-weight: bold; font-size: 1.1em; margin-bottom: 8px; border-bottom: 2px solid var(--primary-color); padding-bottom: 3px; }
+        .meta-info { font-size: 0.8em; color: #7f8c8d; font-weight: normal; margin-left: 10px; }
+        .question-box { padding: 5px; }
+        .answer-text { font-weight: bold; font-size: 1.2em; color: #c0392b; margin-top: 10px; margin-bottom: 8px; }
+        .explanation-box { padding: 10px 15px; background-color: #f9f9f9; border-left: 3px solid #3498db; }
+        .footer-area { margin-top: 15px; page-break-inside: avoid; display: flex; justify-content: flex-end; align-items: flex-end; gap: 15px; }
+        .qr-code-box { text-align: center; }
+        .qr-code-box p { margin: 0 0 2px 0; font-size: 0.75em; color: #555; font-weight: bold; }
+        .qr-code-box img { width: 90px; height: 90px; }
+        .creation-date { font-size: 0.85em; color: #666; margin-bottom: 5px; text-align: right; }
+        @media print { body { max-width: 100%; padding: 0; } }
+    </style>
+</head>
+<body>
+    <div class="section-questions">
+
+        <div class="problem-container">
+            <div class="problem-header">
+                問 1 <span class="meta-info">（比例配分 / 難易度: easy / qid: c4b22f...）</span>
+            </div>
+            <div class="question-box">
+                アプデちゃんが、幸運を呼ぶ謎の石50個を限定セールで売り出しました。石を赤色と青色の数の比が $2 : 3$ になるように分けるとすると、赤色の石は何個になりますか？
+            </div>
+            <div class="answer-text">【答え】 20個</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① まずは比の合計を求めて、全体をいくつに分けるか考えるよ♡ $2 + 3 = 5$ だね！<br>② 次に、全体のうち赤色の石がどれだけの割合か計算しちゃうよ♡ $\\frac{2}{5}$ になるね！<br>③ 最後に、全体の50個にその割合を掛ければ、赤色の石の数が出るよ♡ $50 \\times \\frac{2}{5} = 20$ 個だね！<br>もちろん買うよね♡
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 2 <span class="meta-info">（比例配分 / 難易度: easy / qid: a6fd5f...）</span>
+            </div>
+            <div class="question-box">
+                ミクナイダヨがライブの売上20万円を、自分の取り分と謎の「運営税」の比が $9 : 1$ になるように分けます。運営税はいくらになりますか？
+            </div>
+            <div class="answer-text">【答え】 2万円</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① まず比を合計して、全体をいくつに分けるか決めるヨ♡ $9 + 1 = 10$ ダヨ♡<br>② 運営税の割合を計算するネ！ 全体の $\\frac{1}{10}$ が税金になるヨ💀<br>③ 売上に割合を掛けて、金額を出すヨ！ $20 \\times \\frac{1}{10} = 2$ 万円ダヨ♡<br>投げて♡
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 3 <span class="meta-info">（比例配分 / 難易度: easy / qid: 61b593...）</span>
+            </div>
+            <div class="question-box">
+                アサコが終末の魔法を使い、500ポイントの魔力を二つの世界に分配して消去します。魔力を $1 : 4$ の比で分けるとき、大きい方の魔力は何ポイントになりますか？
+            </div>
+            <div class="answer-text">【答え】 400ポイント</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 比の合計。 $1 + 4 = 5$ 。<br>② 全体に対する割合の算出。 $\\frac{4}{5}$ 。<br>③ 魔力の計算。 $500 \\times \\frac{4}{5} = 400$ ポイント。<br>……消す
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 4 <span class="meta-info">（比例配分 / 難易度: easy / qid: b964af...）</span>
+            </div>
+            <div class="question-box">
+                むとう けんが主催する投資セミナーに90人が参加しました。参加者を「すぐ行動する人」と「検討する人」の比が $1 : 2$ になるように分けると、検討する人は何人になりますか？
+            </div>
+            <div class="answer-text">【答え】 60人</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 成功者の思考で比の合計を出しましょう。 $1 + 2 = 3$ です。<br>② 次に、検討する人が全体の中で占める割合を明確にします。 $\\frac{2}{3}$ ですね。<br>③ 最後に、全体数にその割合を掛けて現実の数字を出します。 $90 \\times \\frac{2}{3} = 60$ 人です。<br>行動しない人は一生変われない
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 5 <span class="meta-info">（比例配分 / 難易度: easy / qid: a6709e...）</span>
+            </div>
+            <div class="question-box">
+                ラージ・ラフ (Raj Ruff)が、500MBのメモリをPythonの実行と、蛇を動かすショウの比が $4 : 1$ になるように割り当てました。ショウに割り当てられたメモリは何MBですか？
+            </div>
+            <div class="answer-text">【答え】 100MB</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① ロジック、健全ネ。比を合計シテ、メモリの分割数を確認スル。 $4 + 1 = 5$ ネ。<br>② ショウに割り当てる割合を計算。 $\\frac{1}{5}$ 。型安全ネ。<br>③ 全体の500MBに掛ければ、答えがデプロイされる。 $500 \\times \\frac{1}{5} = 100$ MB。ワカッタカ？<br>ロジック、健全ネ。
+            </div></div>
+    </div>
+    <div class="footer-area">
+        
+        <div class="creation-date">作成日: 2026年05月06日<br>Quiz ID: quiz_20260506_062107_4110</div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false
+            });
+        });
+    </script>
+</body>
+</html>
