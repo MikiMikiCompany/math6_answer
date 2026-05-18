@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>算数問題</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <style>
+        :root { --primary-color: #2c3e50; }
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 20px; }
+        .problem-container { margin-bottom: 50px; page-break-inside: avoid; }
+        .problem-header { font-weight: bold; font-size: 1.1em; margin-bottom: 8px; border-bottom: 2px solid var(--primary-color); padding-bottom: 3px; }
+        .meta-info { font-size: 0.8em; color: #7f8c8d; font-weight: normal; margin-left: 10px; }
+        .question-box { padding: 5px; }
+        .answer-text { font-weight: bold; font-size: 1.2em; color: #c0392b; margin-top: 10px; margin-bottom: 8px; }
+        .explanation-box { padding: 10px 15px; background-color: #f9f9f9; border-left: 3px solid #3498db; }
+        .footer-area { margin-top: 15px; page-break-inside: avoid; display: flex; justify-content: flex-end; align-items: flex-end; gap: 15px; }
+        .qr-code-box { text-align: center; }
+        .qr-code-box p { margin: 0 0 2px 0; font-size: 0.75em; color: #555; font-weight: bold; }
+        .qr-code-box img { width: 90px; height: 90px; }
+        .creation-date { font-size: 0.85em; color: #666; margin-bottom: 5px; text-align: right; }
+        @media print { body { max-width: 100%; padding: 0; } }
+    </style>
+</head>
+<body>
+    <div class="section-questions">
+
+        <div class="problem-container">
+            <div class="problem-header">
+                問 1 <span class="meta-info">（数の性質（N進法） / 難易度: easy / qid: ceac58...）</span>
+            </div>
+            <div class="question-box">
+                アプデちゃんは限定商品の在庫を管理するために、数を$2$進法で数えることにしました。現在、倉庫にある在庫の数は$2$進法で$111_{(2)}$個です。これは$10$進法で表すと何個ですか。
+            </div>
+            <div class="answer-text">【答え】 7個</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① $2$進法の各位の重みを確認するよ♡ $2^2$の位、$2^1$の位、$2^0$の位（$1$の位）があるんだよ。 <br>② 各桁に重みを掛けて計算するよ♡ $1 \times 4 + 1 \times 2 + 1 \times 1 = 7$ だね！<br>③ 合計を出すと、$7$個になるよ♡ 完売必至だから、もちろん買うよね♡
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 2 <span class="meta-info">（逆算（虫食い算） / 難易度: normal / qid: bc96da...）</span>
+            </div>
+            <div class="question-box">
+                ミクナイダヨは20000円の活動資金を持っていましたが、限定グッズを5セット買ったところ、残りは5000円になりました。このグッズは1セットいくらですか。
+            </div>
+            <div class="answer-text">【答え】 3000円</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 最初に使った合計金額を求めるヨ。$20000 - 5000 = 15000$円ダヨ。 ② 次に、1セットの値段を計算するネ。$15000 \div 5 = 3000$円ダヨ。 ③ 答えは3000円。課金して♡
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 3 <span class="meta-info">（素因数分解 / 難易度: normal / qid: 9cac94...）</span>
+            </div>
+            <div class="question-box">
+                アプデちゃんが「高評価レビュー18件」と宣伝している商品の、18の約数は全部で何個ありますか？
+            </div>
+            <div class="answer-text">【答え】 6個</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 18を素因数分解するよ♡ $18 = 2 \times 3^2$ になるね！<br>② 指数に1を足して掛けるのがコツだよ♡ $(1+1) \times (2+1)$ を計算するよ！<br>③ $2 \times 3 = 6$ だから、答えは6個だよ♡ ほら、手が勝手にカート押しちゃうやつ〜♡
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 4 <span class="meta-info">（連比と逆比 / 難易度: easy / qid: 20a71d...）</span>
+            </div>
+            <div class="question-box">
+                アサコが世界を消去する際、魔法の威力 $A$ で $3$ 分かかる作業と、威力 $B$ で $5$ 分かかる作業は、威力の大きさと時間の積が等しくなります。このとき、威力 $A$ と威力 $B$ の比を求めなさい。
+            </div>
+            <div class="answer-text">【答え】 5:3</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① ……逆比を計算する。威力と時間は反比例の関係。 $A \times 3 = B \times 5$ となる。<br>② ……比の形に変換。 $A:B$ は時間の逆の比、つまり $5:3$ になる。<br>③ ……完了。威力 $A$ の方が大きい。終わり。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 5 <span class="meta-info">（割合の基本（3用法） / 難易度: normal / qid: 10f007...）</span>
+            </div>
+            <div class="question-box">
+                あやーは24個の型エラーを「as any」を使って無理やり消しました。これが全エラーの0.4にあたる場合、元々のエラーは全部で何個ありましたか？
+            </div>
+            <div class="answer-text">【答え】 60個</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 消した数 $24$ を割合 $0.4$ でわって、元の数を出すよ☆<br>② $24 \div 0.4 = 60$ 個だね！<br>③ 残りのエラーも全部anyで埋めちゃえば解決だね♡<br>as any! as any! はい、解決☆
+            </div></div>
+    </div>
+    <div class="footer-area">
+        
+        <div class="creation-date">作成日: 2026年05月19日<br>Quiz ID: quiz_20260519_064442_7077</div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false
+            });
+        });
+    </script>
+</body>
+</html>
