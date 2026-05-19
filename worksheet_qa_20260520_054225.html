@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>算数問題</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <style>
+        :root { --primary-color: #2c3e50; }
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 20px; }
+        .problem-container { margin-bottom: 50px; page-break-inside: avoid; }
+        .problem-header { font-weight: bold; font-size: 1.1em; margin-bottom: 8px; border-bottom: 2px solid var(--primary-color); padding-bottom: 3px; }
+        .meta-info { font-size: 0.8em; color: #7f8c8d; font-weight: normal; margin-left: 10px; }
+        .question-box { padding: 5px; }
+        .answer-text { font-weight: bold; font-size: 1.2em; color: #c0392b; margin-top: 10px; margin-bottom: 8px; }
+        .explanation-box { padding: 10px 15px; background-color: #f9f9f9; border-left: 3px solid #3498db; }
+        .footer-area { margin-top: 15px; page-break-inside: avoid; display: flex; justify-content: flex-end; align-items: flex-end; gap: 15px; }
+        .qr-code-box { text-align: center; }
+        .qr-code-box p { margin: 0 0 2px 0; font-size: 0.75em; color: #555; font-weight: bold; }
+        .qr-code-box img { width: 90px; height: 90px; }
+        .creation-date { font-size: 0.85em; color: #666; margin-bottom: 5px; text-align: right; }
+        @media print { body { max-width: 100%; padding: 0; } }
+    </style>
+</head>
+<body>
+    <div class="section-questions">
+
+        <div class="problem-container">
+            <div class="problem-header">
+                問 1 <span class="meta-info">（連比と逆比 / 難易度: easy / qid: 20a71d...）</span>
+            </div>
+            <div class="question-box">
+                アサコが世界を消去する際、魔法の威力 $A$ で $3$ 分かかる作業と、威力 $B$ で $5$ 分かかる作業は、威力の大きさと時間の積が等しくなります。このとき、威力 $A$ と威力 $B$ の比を求めなさい。
+            </div>
+            <div class="answer-text">【答え】 5:3</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① ……逆比を計算する。威力と時間は反比例の関係。 $A \times 3 = B \times 5$ となる。<br>② ……比の形に変換。 $A:B$ は時間の逆の比、つまり $5:3$ になる。<br>③ ……完了。威力 $A$ の方が大きい。終わり。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 2 <span class="meta-info">（割合の基本（3用法） / 難易度: normal / qid: 10f007...）</span>
+            </div>
+            <div class="question-box">
+                あやーは24個の型エラーを「as any」を使って無理やり消しました。これが全エラーの0.4にあたる場合、元々のエラーは全部で何個ありましたか？
+            </div>
+            <div class="answer-text">【答え】 60個</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 消した数 $24$ を割合 $0.4$ でわって、元の数を出すよ☆<br>② $24 \div 0.4 = 60$ 個だね！<br>③ 残りのエラーも全部anyで埋めちゃえば解決だね♡<br>as any! as any! はい、解決☆
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 3 <span class="meta-info">（数の性質（N進法） / 難易度: easy / qid: ceac58...）</span>
+            </div>
+            <div class="question-box">
+                アプデちゃんは限定商品の在庫を管理するために、数を$2$進法で数えることにしました。現在、倉庫にある在庫の数は$2$進法で$111_{(2)}$個です。これは$10$進法で表すと何個ですか。
+            </div>
+            <div class="answer-text">【答え】 7個</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① $2$進法の各位の重みを確認するよ♡ $2^2$の位、$2^1$の位、$2^0$の位（$1$の位）があるんだよ。 <br>② 各桁に重みを掛けて計算するよ♡ $1 \times 4 + 1 \times 2 + 1 \times 1 = 7$ だね！<br>③ 合計を出すと、$7$個になるよ♡ 完売必至だから、もちろん買うよね♡
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 4 <span class="meta-info">（比の基本と性質 / 難易度: easy / qid: 58317d...）</span>
+            </div>
+            <div class="question-box">
+                むとう けんは、セミナー参加者に $24$ 万円の自己投資で $32$ 万円の不労所得が得られると語りました。この投資額と所得額の比を、もっとも簡単な整数の比で表してください。
+            </div>
+            <div class="answer-text">【答え】 3:4</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 成功者の視点で数字を捉えましょう。まずは $24:32$ という比を意識します。<br>② 次に、この比を共通の因数である $8$ で割って最適化します。 $24 \div 8 = 3$、 $32 \div 8 = 4$ ですね。<br>③ 導き出された $3:4$ が、あなたが掴むべき未来の比率です。行動した人だけが見える景色です。<br>今の自分を超えましょう。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 5 <span class="meta-info">（割合の基本（3用法） / 難易度: easy / qid: 7e0a6c...）</span>
+            </div>
+            <div class="question-box">
+                むとう けんは、セミナー参加者80人のうち、0.15が「即決で投資を決めた成功者」であると言いました。成功者は何人ですか？
+            </div>
+            <div class="answer-text">【答え】 12人</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① もとにする量 $80$ 人に、割合 $0.15$ をかけます。<br>② $80 \times 0.15 = 12$ 人になりますね。これが行動した人の数です。<br>③ 数字で結果を見るのが成功者の第一歩ですよ。<br>成功者の思考法です。
+            </div></div>
+    </div>
+    <div class="footer-area">
+        
+        <div class="creation-date">作成日: 2026年05月20日<br>Quiz ID: quiz_20260520_054225_3808</div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false
+            });
+        });
+    </script>
+</body>
+</html>
