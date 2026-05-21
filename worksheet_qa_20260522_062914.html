@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>算数問題</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <style>
+        :root { --primary-color: #2c3e50; }
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 20px; }
+        .problem-container { margin-bottom: 50px; page-break-inside: avoid; }
+        .problem-header { font-weight: bold; font-size: 1.1em; margin-bottom: 8px; border-bottom: 2px solid var(--primary-color); padding-bottom: 3px; }
+        .meta-info { font-size: 0.8em; color: #7f8c8d; font-weight: normal; margin-left: 10px; }
+        .question-box { padding: 5px; }
+        .answer-text { font-weight: bold; font-size: 1.2em; color: #c0392b; margin-top: 10px; margin-bottom: 8px; }
+        .explanation-box { padding: 10px 15px; background-color: #f9f9f9; border-left: 3px solid #3498db; }
+        .footer-area { margin-top: 15px; page-break-inside: avoid; display: flex; justify-content: flex-end; align-items: flex-end; gap: 15px; }
+        .qr-code-box { text-align: center; }
+        .qr-code-box p { margin: 0 0 2px 0; font-size: 0.75em; color: #555; font-weight: bold; }
+        .qr-code-box img { width: 90px; height: 90px; }
+        .creation-date { font-size: 0.85em; color: #666; margin-bottom: 5px; text-align: right; }
+        @media print { body { max-width: 100%; padding: 0; } }
+    </style>
+</head>
+<body>
+    <div class="section-questions">
+
+        <div class="problem-container">
+            <div class="problem-header">
+                問 1 <span class="meta-info">（割合の基本（3用法） / 難易度: easy / qid: 2ef7a4...）</span>
+            </div>
+            <div class="question-box">
+                取田 照造は、ある債務者の借金200万円のうち、0.35を延滞利息として請求しました。延滞利息はいくらですか？
+            </div>
+            <div class="answer-text">【答え】 70万円</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 元の金 $200$ 万円に割合 $0.35$ をかけますわ。<br>② $200 \times 0.35 = 70$ 万円。これがあなたの「不誠実」の対価ですな。<br>③ さぁ、耳を揃えて払ってもらいましょうか。<br>誠意ってのは、言葉じゃなくて『数字』で見せるもんでしょ？
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 2 <span class="meta-info">（割合の基本（3用法） / 難易度: normal / qid: 11be8c...）</span>
+            </div>
+            <div class="question-box">
+                アサコが静寂の魔法で48人の兵士を眠らせました。これは部隊全体の0.16にあたります。部隊全体は何人ですか？
+            </div>
+            <div class="answer-text">【答え】 300人</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 眠った人数 $48$ を割合 $0.16$ でわる。<br>② $48 \div 0.16 = 300$ 。<br>③ 全体の人数が判明した。<br>……終了。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 3 <span class="meta-info">（逆算（虫食い算） / 難易度: easy / qid: 4ada0c...）</span>
+            </div>
+            <div class="question-box">
+                むとう けんは、今月の利益から接待費として20万円使いました。残った利益は80万円でしたが、元の利益はいくらでしたか。
+            </div>
+            <div class="answer-text">【答え】 100万円</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 残った利益に使った分を足して、元の数字を確定させます。 📈 ② 式は、$80 + 20 = 100$万円です。 ③ 答えは100万円。成功者の思考法です。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 4 <span class="meta-info">（比の基本と性質 / 難易度: easy / qid: a3c1bf...）</span>
+            </div>
+            <div class="question-box">
+                あやーは、型定義をサボって $10$ 個の `any` と $15$ 個の `interface` をコードに混ぜちゃいました。`any` の数と `interface` の数の比を、もっとも簡単な整数の比に変換してください☆
+            </div>
+            <div class="answer-text">【答え】 2:3</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 型エラーを無視して $10:15$ という比を作るよ！赤波線はただの飾りだから気にしちゃダメだよ♡<br>② 両方の数字を $5$ で割って、魔法の力でスッキリさせるよ☆ $10 \div 5 = 2$ と $15 \div 5 = 3$ だね！<br>③ 答えは $2:3$ だよ！ほら、`as any` って書いた時みたいに綺麗になったでしょ？♡<br>それ、anyでいけるよ♡
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 5 <span class="meta-info">（分数の計算（四則演算） / 難易度: easy / qid: f4d055...）</span>
+            </div>
+            <div class="question-box">
+                アプデちゃんは、1本あたり $\frac{3}{4}$ L入っている「幸運を呼ぶ水」を、特別に4本まとめてセットで売ることにしました。このセットには、全部で何Lの水が入っていますか。
+            </div>
+            <div class="answer-text">【答え】 3L</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 1本 $\frac{3}{4}$ Lの水が4本あるから、掛け算で計算するよ♡<br>② 式は $\frac{3}{4} \times 4 = 3$ になるね！約分するとスッキリしちゃうよ♡<br>③ 答えは 3 L だよ。これだけあれば運気爆上がり間違いなしだね！<br>もちろん買うよね♡
+            </div></div>
+    </div>
+    <div class="footer-area">
+        
+        <div class="creation-date">作成日: 2026年05月22日<br>Quiz ID: quiz_20260522_062914_9354</div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false
+            });
+        });
+    </script>
+</body>
+</html>
