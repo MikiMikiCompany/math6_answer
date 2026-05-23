@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>算数問題</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <style>
+        :root { --primary-color: #2c3e50; }
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 20px; }
+        .problem-container { margin-bottom: 50px; page-break-inside: avoid; }
+        .problem-header { font-weight: bold; font-size: 1.1em; margin-bottom: 8px; border-bottom: 2px solid var(--primary-color); padding-bottom: 3px; }
+        .meta-info { font-size: 0.8em; color: #7f8c8d; font-weight: normal; margin-left: 10px; }
+        .question-box { padding: 5px; }
+        .answer-text { font-weight: bold; font-size: 1.2em; color: #c0392b; margin-top: 10px; margin-bottom: 8px; }
+        .explanation-box { padding: 10px 15px; background-color: #f9f9f9; border-left: 3px solid #3498db; }
+        .footer-area { margin-top: 15px; page-break-inside: avoid; display: flex; justify-content: flex-end; align-items: flex-end; gap: 15px; }
+        .qr-code-box { text-align: center; }
+        .qr-code-box p { margin: 0 0 2px 0; font-size: 0.75em; color: #555; font-weight: bold; }
+        .qr-code-box img { width: 90px; height: 90px; }
+        .creation-date { font-size: 0.85em; color: #666; margin-bottom: 5px; text-align: right; }
+        @media print { body { max-width: 100%; padding: 0; } }
+    </style>
+</head>
+<body>
+    <div class="section-questions">
+
+        <div class="problem-container">
+            <div class="problem-header">
+                問 1 <span class="meta-info">（速さの3公式と単位換算 / 難易度: easy / qid: cc3dc6...）</span>
+            </div>
+            <div class="question-box">
+                アサコが放った終末の魔法は、秒速$500$ mの速さで直進します。この魔法が放たれてから$10$秒間に進む道のりは何mですか。
+            </div>
+            <div class="answer-text">【答え】 5000m</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 魔法の速さと時間を特定。秒速 $500$ m、時間は $10$ 秒。<br>② 道のりを求める公式 $速さ \times 時間$ を使用。 $500 \times 10 = 5000$。<br>③ 結論。 $5000$ m。 ……消す。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 2 <span class="meta-info">（速さの3公式と単位換算 / 難易度: easy / qid: 507cac...）</span>
+            </div>
+            <div class="question-box">
+                むとう けんが主催する高額投資セミナーに向かう高級車は、時速$80$ kmの速さで$2.5$時間走り続けました。この車が進んだ道のりは何kmですか。
+            </div>
+            <div class="answer-text">【答え】 200km</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 成功者のスピード感、時速 $80$ kmを把握しましょう。時間は $2.5$ 時間です。<br>② 道のりを出すには $速さ \times 時間$ を計算すればいい。 $80 \times 2.5 = 200$ ですね。<br>③ 結果は $200$ km。この移動もまた自分への投資です。行動しない人は一生変われない。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 3 <span class="meta-info">（速さの3公式と単位換算 / 難易度: easy / qid: 0e7d29...）</span>
+            </div>
+            <div class="question-box">
+                あやーが書いた「any型だらけのスクリプト」のバグは、$1$分間に$120$個の速さで増殖します。このバグが$5$分間増殖し続けたとき、バグは全部で何個になりますか。
+            </div>
+            <div class="answer-text">【答え】 600個</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① バグが増える速さは、毎分 $120$ 個だね！ 時間は $5$ 分間だよ♡<br>② 全体の個数を出すために $速さ \times 時間$ を計算しちゃお☆ $120 \times 5 = 600$ になるよ！<br>③ 合計で $600$ 個！ 赤波線がいっぱいで可愛いね☆ それ、anyでいけるよ♡
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 4 <span class="meta-info">（速さの3公式と単位換算 / 難易度: easy / qid: 27a1ce...）</span>
+            </div>
+            <div class="question-box">
+                取田 照造が差し押さえに向かうトラックは、時速$60$ kmの速さで債務者の家まで$30$ kmの道のりを走りました。移動にかかった時間は何時間ですか。小数で答えてください。
+            </div>
+            <div class="answer-text">【答え】 0.5時間</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① お支払いの意思がないようですので。道のり $30$ kmを、時速 $60$ kmで向かいますわ。<br>② 時間を出すには $道のり \div 速さ$。 $30 \div 60 = 0.5$ になりますな。<br>③ 答えは $0.5$ 時間。つまり$30$分後には到着しますよ。誠意を数字で見せてくださいな。家売らんかい。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 5 <span class="meta-info">（速さの3公式と単位換算 / 難易度: easy / qid: 1357ac...）</span>
+            </div>
+            <div class="question-box">
+                ラージ・ラフが操るヘビが、$15$ mの距離を$6$秒間で移動しました。このヘビの速さは秒速何mですか。小数で答えてください。
+            </div>
+            <div class="answer-text">【答え】 秒速2.5m</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 道のりは $15$ m、時間は $6$ 秒。ロジック、健全ネ。バリデーション完了。<br>② 速さを出すには $道のり \div 時間$ を計算スル。 $15 \div 6 = 2.5$ ネ。型エラーなし。<br>③ 答えは秒速 $2.5$ m。My code is type-safe. ワカッタカ？
+            </div></div>
+    </div>
+    <div class="footer-area">
+        
+        <div class="creation-date">作成日: 2026年05月24日<br>Quiz ID: quiz_20260524_075153_3319</div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false
+            });
+        });
+    </script>
+</body>
+</html>
