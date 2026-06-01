@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>算数問題</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <style>
+        :root { --primary-color: #2c3e50; }
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 20px; }
+        .problem-container { margin-bottom: 50px; page-break-inside: avoid; }
+        .problem-header { font-weight: bold; font-size: 1.1em; margin-bottom: 8px; border-bottom: 2px solid var(--primary-color); padding-bottom: 3px; }
+        .meta-info { font-size: 0.8em; color: #7f8c8d; font-weight: normal; margin-left: 10px; }
+        .question-box { padding: 5px; }
+        .answer-text { font-weight: bold; font-size: 1.2em; color: #c0392b; margin-top: 10px; margin-bottom: 8px; }
+        .explanation-box { padding: 10px 15px; background-color: #f9f9f9; border-left: 3px solid #3498db; }
+        .footer-area { margin-top: 15px; page-break-inside: avoid; display: flex; justify-content: flex-end; align-items: flex-end; gap: 15px; }
+        .qr-code-box { text-align: center; }
+        .qr-code-box p { margin: 0 0 2px 0; font-size: 0.75em; color: #555; font-weight: bold; }
+        .qr-code-box img { width: 90px; height: 90px; }
+        .creation-date { font-size: 0.85em; color: #666; margin-bottom: 5px; text-align: right; }
+        @media print { body { max-width: 100%; padding: 0; } }
+    </style>
+</head>
+<body>
+    <div class="section-questions">
+
+        <div class="problem-container">
+            <div class="problem-header">
+                問 1 <span class="meta-info">（相当算（還元算） / 難易度: easy / qid: 2d3dad...）</span>
+            </div>
+            <div class="question-box">
+                ラージ・ラフが管理するPythonのプロジェクトで、$\frac{5}{8}$のファイルに型ヒントを付け終えました。完了したファイルが$25$個であるとき、プロジェクト全体のファイル数は何個ですか？
+            </div>
+            <div class="answer-text">【答え】 40個</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 全体ノ$\frac{5}{8}$ガ$25$個。ロジック、健全ネ。ワカッタカ？<br>② 全体ノ数ハ、部分ヲ割合デ割ル。$25 \div \frac{5}{8} = 40$個。理解シタカ？<br>③ ファイル数ハ$40$個。全テ型安全ネ。問題ナイ。My code is type-safe. No runtime errors, no problems.
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 2 <span class="meta-info">（相当算（還元算） / 難易度: easy / qid: 95ecc1...）</span>
+            </div>
+            <div class="question-box">
+                アサコが魔導書で世界を消去しています。全領域の$\frac{2}{3}$を消去し終えたところで、消えた範囲は$120$平方キロメートルでした。消去される予定の全領域は何平方キロメートルですか？
+            </div>
+            <div class="answer-text">【答え】 180平方キロメートル</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① ……割合を確認。全体の$\frac{2}{3}$が$120$に相当する。<br>② ……逆算。$120 \div \frac{2}{3} = 180$。<br>③ ……結論。全領域は$180$平方キロメートル。……終わり。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 3 <span class="meta-info">（旅人算（出会い・追いかけ） / 難易度: easy / qid: bf985c...）</span>
+            </div>
+            <div class="question-box">
+                ラジュ・ソリマセンは、1200m離れた場所にいる被害者をATMへ案内するため、お互いに向かって歩き始めました。ラジュは分速70m、被害者は分速50mのとき、2人が出会うのは何分後ですか？
+            </div>
+            <div class="answer-text">【答え】 10分後</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① ダイジョウブ、1分間に近づく距離を計算するだけ。 $70 + 50 = 120$mです。<br>② 全体の距離をこの数字で割ります。 $1200 \div 120 = 10$分。<br>③ 10分後、スグ直ります。お金の準備してください。<br>ダイジョウブです
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 4 <span class="meta-info">（旅人算（出会い・追いかけ） / 難易度: easy / qid: 48a268...）</span>
+            </div>
+            <div class="question-box">
+                近江屋 金右衛門は、400m前を分速40mで歩くお代官様に賄賂を渡すため、分速60mで追いかけ始めました。金右衛門がお代官様に追いつくのは何分後ですか？
+            </div>
+            <div class="answer-text">【答え】 20分後</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① へっへっへ……まずは1分間に縮まる距離を計算しましょうぞ。 $60 - 40 = 20$mでございますな。<br>② 追いつくまでの時間は、距離を速さの差で割れば出まする。 $400 \div 20 = 20$分でございます。<br>③ 20分あれば、裏金の準備も整いましょうぞ。へっへっへ。<br>お主も悪よのぅ
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 5 <span class="meta-info">（旅人算（出会い・追いかけ） / 難易度: easy / qid: 9bf246...）</span>
+            </div>
+            <div class="question-box">
+                ラージ・ラフは、180m前方を分速10mで這っている型エラー（ヘビ）を、分速40mで追いかけ始めました。ラージがエラーに追いつくのは何分後ですか？
+            </div>
+            <div class="answer-text">【答え】 6分後</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 追いかけのロジック、健全ネ。1分間に縮まる距離ハ $40 - 10 = 30$m。ワカッタカ？<br>② 距離 $180$m ヲ $30$m/分 デ割ル。 $180 \div 30 = 6$分。理解シタカ？<br>③ 6分後、デバッグ完了ネ。Type-safe な未来ガ待ッテイル。<br>ワカッタカ？
+            </div></div>
+    </div>
+    <div class="footer-area">
+        
+        <div class="creation-date">作成日: 2026年06月02日<br>Quiz ID: quiz_20260602_063308_2809</div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false
+            });
+        });
+    </script>
+</body>
+</html>
