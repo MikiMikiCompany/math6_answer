@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>算数問題</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <style>
+        :root { --primary-color: #2c3e50; }
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 20px; }
+        .problem-container { margin-bottom: 50px; page-break-inside: avoid; }
+        .problem-header { font-weight: bold; font-size: 1.1em; margin-bottom: 8px; border-bottom: 2px solid var(--primary-color); padding-bottom: 3px; }
+        .meta-info { font-size: 0.8em; color: #7f8c8d; font-weight: normal; margin-left: 10px; }
+        .question-box { padding: 5px; }
+        .answer-text { font-weight: bold; font-size: 1.2em; color: #c0392b; margin-top: 10px; margin-bottom: 8px; }
+        .explanation-box { padding: 10px 15px; background-color: #f9f9f9; border-left: 3px solid #3498db; }
+        .footer-area { margin-top: 15px; page-break-inside: avoid; display: flex; justify-content: flex-end; align-items: flex-end; gap: 15px; }
+        .qr-code-box { text-align: center; }
+        .qr-code-box p { margin: 0 0 2px 0; font-size: 0.75em; color: #555; font-weight: bold; }
+        .qr-code-box img { width: 90px; height: 90px; }
+        .creation-date { font-size: 0.85em; color: #666; margin-bottom: 5px; text-align: right; }
+        @media print { body { max-width: 100%; padding: 0; } }
+    </style>
+</head>
+<body>
+    <div class="section-questions">
+
+        <div class="problem-container">
+            <div class="problem-header">
+                問 1 <span class="meta-info">（通過算（鉄橋・トンネル） / 難易度: 基本 (Easy) / qid: b2897d...）</span>
+            </div>
+            <div class="question-box">
+                長さ $140$m のPythonトレインが、長さ $660$m の型安全トンネルを秒速 $40$m で走り抜けます。ラージ・ラフが保証する、通過にかかる時間は何秒ですか。
+            </div>
+            <div class="answer-text">【答え】 20秒</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 1坪の聖域から計算するネ。まずは合計距離のバリデーション、$140 + 660 = 800$m。ロジック健全ネ。<br>② 次に時間をビルドする。$800 \div 40 = 20$ 秒。ランタイムエラー、発生しないネ。<br>③ 完璧なレスポンス。20秒でデプロイ完了。ワカッタカ？
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 2 <span class="meta-info">（通過算（鉄橋・トンネル） / 難易度: 基本 (Easy) / qid: 58e539...）</span>
+            </div>
+            <div class="question-box">
+                長さ $110$m の千両箱列車が、長さ $340$m の秘密トンネルを秒速 $15$m で進んでおります。近江屋 金右衛門が帳簿に記す、通過にかかる時間は何秒でございましょう。
+            </div>
+            <div class="answer-text">【答え】 30秒</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① へっへっへ……まずは列車の先頭から最後尾までが抜けきる距離を足し合わせます。$110 + 340 = 450$m でございますな。<br>② 左様、あとはこの距離を速さで割ればよいのです。$450 \div 15 = 30$ 秒となりまする。<br>③ お代官様、これなら役人の目も盗める速さでございましょう？ お主も悪よのぅ。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 3 <span class="meta-info">（通過算（鉄橋・トンネル） / 難易度: 基本 (Easy) / qid: 8fe162...）</span>
+            </div>
+            <div class="question-box">
+                長さ $80$m の成功者専用車両が、長さ $520$m のチャンス鉄橋を秒速 $30$m で通過します。むとう けんが教える、通過にかかる時間は何秒ですか。
+            </div>
+            <div class="answer-text">【答え】 20秒</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 成功者のマインドで考えれば、まずは合計距離が見えてきます。$80 + 520 = 600$m ですね。<br>② 次に、その距離を速さで割って時間を算出します。$600 \div 30 = 20$ 秒です。<br>③ 迷っている時間はありません。この $20$ 秒で決断できる人が勝つんです。行動しない人は一生変われない。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 4 <span class="meta-info">（通過算（鉄橋・トンネル） / 難易度: 基本 (Easy) / qid: 364ba8...）</span>
+            </div>
+            <div class="question-box">
+                長さ $150$m の消滅列車が、長さ $300$m の鉄橋を渡り始めてから渡り終わるまでに $15$ 秒かかりました。アサコが計算した列車の速さは秒速何m ですか。
+            </div>
+            <div class="answer-text">【答え】 秒速30m</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① ……合計距離を出す。$150 + 300 = 450$m。<br>② ……速さを計算。$450 \div 15 = 30$m/s。<br>③ ……完了。秒速 $30$m。……消す。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 5 <span class="meta-info">（通過算（鉄橋・トンネル） / 難易度: 基本 (Easy) / qid: 18861f...）</span>
+            </div>
+            <div class="question-box">
+                長さ $130$m のサポート専用車両が、長さ $370$m の光ファイバー鉄橋を渡り始めてから渡り終わるまでに $25$ 秒かかりました。ラジュ・ソリマセンが計算した、秒速何m ですか。
+            </div>
+            <div class="answer-text">【答え】 秒速20m</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① ダイジョウブです、スグ直します。まずは全部の距離、計算してください。$130 + 370 = 500$m です。<br>② 次に、距離を時間で割ります。$500 \div 25 = 20$m/s になりますね。<br>③ 秒速 $20$m です。ワタシ、プロのサポートですから安心してください。ダイジョウブです。
+            </div></div>
+    </div>
+    <div class="footer-area">
+        
+        <div class="creation-date">作成日: 2026年06月06日<br>Quiz ID: quiz_20260606_103338_2863</div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false
+            });
+        });
+    </script>
+</body>
+</html>
