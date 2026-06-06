@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>算数問題</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <style>
+        :root { --primary-color: #2c3e50; }
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 20px; }
+        .problem-container { margin-bottom: 50px; page-break-inside: avoid; }
+        .problem-header { font-weight: bold; font-size: 1.1em; margin-bottom: 8px; border-bottom: 2px solid var(--primary-color); padding-bottom: 3px; }
+        .meta-info { font-size: 0.8em; color: #7f8c8d; font-weight: normal; margin-left: 10px; }
+        .question-box { padding: 5px; }
+        .answer-text { font-weight: bold; font-size: 1.2em; color: #c0392b; margin-top: 10px; margin-bottom: 8px; }
+        .explanation-box { padding: 10px 15px; background-color: #f9f9f9; border-left: 3px solid #3498db; }
+        .footer-area { margin-top: 15px; page-break-inside: avoid; display: flex; justify-content: flex-end; align-items: flex-end; gap: 15px; }
+        .qr-code-box { text-align: center; }
+        .qr-code-box p { margin: 0 0 2px 0; font-size: 0.75em; color: #555; font-weight: bold; }
+        .qr-code-box img { width: 90px; height: 90px; }
+        .creation-date { font-size: 0.85em; color: #666; margin-bottom: 5px; text-align: right; }
+        @media print { body { max-width: 100%; padding: 0; } }
+    </style>
+</head>
+<body>
+    <div class="section-questions">
+
+        <div class="problem-container">
+            <div class="problem-header">
+                問 1 <span class="meta-info">（素因数分解 / 難易度: normal / qid: 78c867...）</span>
+            </div>
+            <div class="question-box">
+                ミクナイダヨが20に自然数 $n$ を掛けて、ある数の2乗にしようとしています。最小の $n$ を教えないと始末するヨ💀
+            </div>
+            <div class="answer-text">【答え】 5</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 20を分解するヨ♡ $20 = 2^2 \times 5$ ダヨ♡<br>② 指数が奇数なのは5だけだネ！これを偶数にするには5が必要ダヨ♡<br>③ だから最小の $n$ は5だヨ！ナイダヨ💀 逃げられないダヨ♡
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 2 <span class="meta-info">（素因数分解 / 難易度: normal / qid: d5011a...）</span>
+            </div>
+            <div class="question-box">
+                アサコが「終焉」を早めるために、12に自然数 $n$ を掛けて平方数にしようとしています。最小の $n$ を求めなさい。
+            </div>
+            <div class="answer-text">【答え】 3</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① ……12を分解する。$12 = 2^2 \times 3$。準備完了。<br>② ……2乗にする。指数の奇数を探す。3が1つ不足。<br>③ ……よって $n = 3$。……消す。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 3 <span class="meta-info">（割合の基本（3用法） / 難易度: easy / qid: e2fdb2...）</span>
+            </div>
+            <div class="question-box">
+                ラージ・ラフは120坪の土地のうち、0.15をPythonコードのデプロイ会場として使用します。会場の面積は何坪ですか？
+            </div>
+            <div class="answer-text">【答え】 18坪</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① 全体ノ $120$ 坪ニ、割合 $0.15$ ヲカケルネ。<br>② $120 \times 0.15 = 18$ 坪。ココデ笛ヲ吹ク。ワカッタカ？<br>③ ロジック、健全ネ。無駄ナイ会場ネ。<br>ロジック、健全ネ。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 4 <span class="meta-info">（数列（等差・階差・群数列） / 難易度: easy / qid: dcdc80...）</span>
+            </div>
+            <div class="question-box">
+                アサコの魔導力が 100 あります。魔法を 1 回使うごとに魔導力は 5 ずつ一定の割合で減っていきます。魔法を 7 回使った後の魔導力はいくつですか？
+            </div>
+            <div class="answer-text">【答え】 65</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① ……初項 $100$。1回ごとに $5$ 減る等差数列。<br>② 7回使用後は $100 - 5 \times 7 = 65$。減少の結果。<br>③ ……不要。終わり。
+            </div></div>
+        <div class="problem-container">
+            <div class="problem-header">
+                問 5 <span class="meta-info">（計算のきまりと工夫 / 難易度: normal / qid: 41ee26...）</span>
+            </div>
+            <div class="question-box">
+                むとう けんが教える投資法では、 $10.1$ 万円の元本を $30$ 倍に増やせると言います。工夫して計算すると合計いくらになりますか。
+            </div>
+            <div class="answer-text">【答え】 303万円</div>
+            <div class="explanation-box">
+                <strong>【解説】</strong><br>① $10.1$ を $(10 + 0.1)$ と分解するのが、成功への近道です！<br>② $(10 + 0.1) \times 30 = 300 + 3 = 303$ 万円になります。<br>③ 疑っているうちは、まだ準備ができていないだけです。
+            </div></div>
+    </div>
+    <div class="footer-area">
+        
+        <div class="creation-date">作成日: 2026年06月06日<br>Quiz ID: quiz_20260606_094819_9736</div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false
+            });
+        });
+    </script>
+</body>
+</html>
